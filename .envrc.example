@@ -1,0 +1,5 @@
+export DEBUG=true
+export BS_ENV=remote
+export BS_USER=your-browserstack-username
+export BS_KEY=your-browserstack-apikey
+export LOG_LEVEL=verbose # silent or verbose

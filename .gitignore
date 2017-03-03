@@ -1,0 +1,9 @@
+tmp/
+node_modules
+npm-debug.log
+local.log
+reports/*.json
+reports/*.xml
+errorShots/
+reports/
+.envrc
