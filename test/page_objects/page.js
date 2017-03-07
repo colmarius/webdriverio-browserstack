@@ -1,6 +1,10 @@
-import { routes, selectors } from '../lib'
+import { keys, routes, selectors } from '../lib'
 
 class Page {
+  get keys () {
+    return this._keys || (this._keys = keys)
+  }
+
   get routes() {
     return this._routes || (this._routes = routes)
   }

@@ -1,6 +1,4 @@
-import {
-  homePage,
-} from '../page_objects'
+import { homePage } from '../page_objects'
 
 describe('Github home page', () => {
   it('loads page', () => {

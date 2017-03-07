@@ -13,6 +13,10 @@ class Routes {
   homeUrl () {
     return this.baseUrl
   }
+
+  searchUrl () {
+    return `${ this.baseUrl }/search`
+  }
 }
 
 module.exports = Routes
