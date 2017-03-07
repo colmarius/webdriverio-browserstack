@@ -1,5 +1,11 @@
 # Webdriver.io + BrowserStack example
 
+Example running integration tests on Github.com
+with [webdriver.io] on [BrowserStack Automate].
+
+[webdriver.io]: http://webdriver.io
+[BrowserStack Automate]: https://www.browserstack.com/automate
+
 ## Setup
 
 First, we install dependencies
@@ -19,7 +25,3 @@ where we export the following variables:
 
     npm run local # test local app on Browserstack
     npm run remote # tests production app on Browserstack
-
-## Description
-
-Example running integration tests on Github.com
